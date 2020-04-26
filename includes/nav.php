@@ -27,12 +27,9 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <!-- <li class="active"><a href="index.php">Home</a></li>
-            <li><a href="about.php">About</a></li>
-            <li><a href="index.php#portfolio">Portfolio</a></li> -->
             <?php 
               foreach($nav as $key => $value){
-                if (!$isIndex || $key != "index"){
+                if ($key != "index"){
                 ?>
             <li class="nav-item <?php if ($page == $key) {?> active<?php } ?>">
               <a class="nav-link" href="/<?php echo $key;?>"><?php echo $value;?></a>
