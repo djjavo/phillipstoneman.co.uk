@@ -1,7 +1,7 @@
 ---
 title: "Graphic Design"
 date: 2021-02-23T13:54:45Z
-draft: true
+draft: false
 ---
 <div id="workwrap" class="graphic-design">
     <div class="container">

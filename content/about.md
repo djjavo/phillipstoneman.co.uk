@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2021-02-23T13:54:45Z
-draft: true
+draft: false
 ---
 <div id="aboutwrap">
     <div class="container">

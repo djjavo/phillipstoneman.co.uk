@@ -1,7 +1,7 @@
 ---
 title: "Living Up The Weekend"
 date: 2021-02-23T13:54:45Z
-draft: true
+draft: false
 ---
 {{< jumbotron title="LIVING UP THE WEEKEND" subtitle="RAW 1251AM & BHBN HOSPITAL RADIO" class="living-up-the-weekend" >}}
 <section id="works"></section>
