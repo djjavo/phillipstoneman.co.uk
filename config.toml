@@ -1,0 +1,7 @@
+baseURL = "http://phillipstoneman.co.uk/"
+languageCode = "en-gb"
+title = "Phillip Stoneman"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+[markup]
+  [markup.goldmark.renderer]
+    unsafe=true
