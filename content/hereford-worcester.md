@@ -8,7 +8,7 @@ draft: false
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				<h1>BBC HEREFORD &amp; WORCESTER</h1>
-				<h4>FREELANCE BROADCAST ASSISTANT, PRODUCTION &amp; STATION SOUND</h4>
+				<h4>BROADCAST ASSISTANT, PRODUCTION &amp; STATION SOUND</h4>
 			</div>
 		</div><!--/row -->
     </div> <!-- /container -->
