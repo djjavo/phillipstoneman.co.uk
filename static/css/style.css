@@ -5,7 +5,7 @@
  * Project Name: NYC Design
  * Version: 1.0
  * Date: 04-20-2014
- * URL: 
+ * URL:
  */
 
 
@@ -115,11 +115,11 @@ h1, h2, h3, h4, h5, h6 {
 .secondnav{
 	background: rgba(0,0,0,0.5);
 	z-index:2;
-}	
+}
 
 @media (max-width: 767px) {
-.navbar-collapse{ 
-	background: rgba(0,0,0,0.5); 
+.navbar-collapse{
+	background: rgba(0,0,0,0.5);
 }
 }
 
@@ -130,24 +130,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap {
-	background: url(../img/index-header.jpg) no-repeat center top;
+	/* background: url(../img/index-header.jpg) no-repeat center top; */
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
+	/* background-attachment: relative; */
+	/* background-position: center center; */
 	min-height: 650px;
 	width: 100%;
-	
-    -webkit-background-size: 100%;
+	background-color: #008ec8;
+
+    /* -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
-    background-size: 100%;
+    background-size: 100%; */
 
-    -webkit-background-size: cover;
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 #headerwrap h1 {
@@ -158,10 +159,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 80px;
 	font-weight: bold;
 	text-shadow:
-    -1px -1px 4px #008ec8,  
-     1px -1px 4px #008ec8,
-    -1px  1px 4px #008ec8,
-     1px  1px 4px #008ec8;
+    -1px -1px 4px #005070,
+     1px -1px 4px #005070,
+    -1px  1px 4px #005070,
+     1px  1px 4px #005070;
 }
 
 
@@ -170,10 +171,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	color: #ffffff;
 	text-shadow:
-    -1px -1px 4px #008ec8,  
-     1px -1px 4px #008ec8,
-    -1px  1px 4px #008ec8,
-     1px  1px 4px #008ec8;
+    -1px -1px 4px #005070,
+     1px -1px 4px #005070,
+    -1px  1px 4px #005070,
+     1px  1px 4px #005070;
+}
+
+#headerwrap img {
+	height: 300px;
+	margin: 0 auto;
+	border: #005070 10px solid;
 }
 
 #social {
@@ -258,7 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 	background: url(../img/living-up-the-weekend-header.jpg) no-repeat center top;
 }
 
-#workwrap {	
+#workwrap {
 /*	background: url(../img/work.jpg) no-repeat center top;*/
 	margin-top: -70px;
 	padding-top: 250px;
@@ -267,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -287,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 80px;
 	font-weight: bold;
 	text-shadow:
-    -1px -1px 4px #008ec8,  
+    -1px -1px 4px #008ec8,
      1px -1px 4px #008ec8,
     -1px  1px 4px #008ec8,
      1px  1px 4px #008ec8;
@@ -297,13 +304,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	color: #ffffff;
 	text-shadow:
-    -1px -1px 4px #008ec8,  
+    -1px -1px 4px #008ec8,
      1px -1px 4px #008ec8,
     -1px  1px 4px #008ec8,
      1px  1px 4px #008ec8;
 }
 
-#stationwrap {	
+#stationwrap {
 	background: url(../img/station-sound-header.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
@@ -312,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -332,7 +339,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 80px;
 	font-weight: bold;
 	text-shadow:
-    -1px -1px 4px #008ec8,  
+    -1px -1px 4px #008ec8,
      1px -1px 4px #008ec8,
     -1px  1px 4px #008ec8,
      1px  1px 4px #008ec8;
@@ -342,13 +349,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
 	color: #ffffff;
 	text-shadow:
-    -1px -1px 4px #008ec8,  
+    -1px -1px 4px #008ec8,
      1px -1px 4px #008ec8,
     -1px  1px 4px #008ec8,
      1px  1px 4px #008ec8;
 }
 
-#aboutwrap {	
+#aboutwrap {
 	background: url(../img/about-header.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 250px;
@@ -357,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: 550px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -373,7 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 	#headerwrap h1, #stationwrap h1, #aboutwrap h1, #workwrap h1 {
 		font-size: 40px;
 	}
-} 
+}
 
 
 /* Gallery */

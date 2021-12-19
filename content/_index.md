@@ -7,9 +7,12 @@ draft: false
 <div id="headerwrap">
 	    <div class="container">
 			<div class="row">
-				<div class="col-lg-6 col-lg-offset-3">
+				<div class="col-lg-6">
 					<h1>PHILLIP STONEMAN</h1>
-					<h4>FREELANCE PRODUCER<br>&amp;<br>AWARD WINNING STATION SOUND CREATOR</h4>
+					<h4>AWARD WINNING STATION SOUND PRODUCER <br> AND PROGRAMME PRODUCER</h4>
+				</div>
+				<div class="col-lg-6">
+					<img src="/img/phillip-studio.jpg" class="img-responsive mx-auto">
 				</div>
 			</div><!--/row -->
 	    </div> <!-- /container -->
