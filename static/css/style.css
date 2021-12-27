@@ -365,6 +365,29 @@ h1, h2, h3, h4, h5, h6 {
      1px  1px 4px #005070;
 }
 
+#portfoliowrap {
+	margin-top: -70px;
+	padding-top: 125px;
+	text-align:center;
+	min-height: 250px;
+	width: 100%;
+	background-color: #008ec8;
+}
+
+#portfoliowrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 65px;
+	font-weight: bold;
+	text-shadow:
+    -1px -1px 4px #005070,
+     1px -1px 4px #005070,
+    -1px  1px 4px #005070,
+     1px  1px 4px #005070;
+}
+
 @media (max-width: 767px) {
 	#headerwrap h1, #stationwrap h1, #aboutwrap h1, #workwrap h1 {
 		font-size: 40px;

@@ -3,12 +3,11 @@ title: "Station Sound"
 date: 2021-02-23T13:54:14Z
 draft: false
 ---
-<div id="stationwrap">
+<div id="portfoliowrap">
     <div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-lg-offset-3">
+			<div class="col-lg-8 col-lg-offset-2">
 				<h1>STATION SOUND</h1>
-				<h4>BBC HEREFORD &amp; WORCESTER</h4>
 			</div>
 		</div><!--/row -->
     </div> <!-- /container -->
