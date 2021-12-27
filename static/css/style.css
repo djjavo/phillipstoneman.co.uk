@@ -130,25 +130,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap {
-	/* background: url(../img/index-header.jpg) no-repeat center top; */
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
-	/* background-attachment: relative; */
-	/* background-position: center center; */
 	min-height: 650px;
 	width: 100%;
 	background-color: #008ec8;
-
-    /* -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%; */
-
-    /* -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
 }
 
 #headerwrap h1 {
@@ -356,24 +343,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aboutwrap {
-	background: url(../img/about-header.jpg) no-repeat center top;
 	margin-top: -70px;
-	padding-top: 250px;
+	padding-top: 125px;
 	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 550px;
+	min-height: 250px;
 	width: 100%;
+	background-color: #008ec8;
+}
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+#aboutwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 65px;
+	font-weight: bold;
+	text-shadow:
+    -1px -1px 4px #005070,
+     1px -1px 4px #005070,
+    -1px  1px 4px #005070,
+     1px  1px 4px #005070;
 }
 
 @media (max-width: 767px) {
