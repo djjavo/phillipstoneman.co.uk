@@ -17,34 +17,6 @@ draft: false
 			</div><!--/row -->
 	    </div> <!-- /container -->
 	</div><!--/headerwrap -->
-	<div class="container">
-		<div class="row centered mt mb">
-			<h1>Working With</h1>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/asian-network"><img src="/img/portfolio/asian-network.jpg" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/hereford-worcester"><img src="/img/portfolio/hereford-worcester.jpg" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/radio-2"><img src="/img/portfolio/radio-2.jpg" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/bay-fm"><img src="/img/portfolio/bay-fm.jpg" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/radio-warwick"><img src="/img/portfolio/radio-warwick.jpg" class="img-responsive"></a>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/bhbn"><img src="img/portfolio/bhbn.jpg" class="img-responsive"></a>
-			</div>
-		</div><!--/row -->
-	</div><!--/container -->
-	<div class="container">
-		<div class="row centered mt-half mb-half">
-			<h3>I’m always looking to apply my varied creative skillset to new projects. Why not <a href="mailto:hello@phillipstoneman.co.uk">say hello...</a></h3>
-		</div>
-	</div>
 	<section id="portfolio"></section>
 	<div class="container">
 		<div class="row centered mt mb">
@@ -69,3 +41,33 @@ draft: false
 			</div>
 		</div><! --/row -->
 	</div><! --/container -->
+	<div class="container">
+		<div class="row centered mt-half mb-half">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h3>I’m always looking to apply my varied creative skillset to new projects. Why not <a href="mailto:hello@phillipstoneman.co.uk">say hello...</a></h3>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row centered mt mb">
+			<h1>Working With</h1>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
+				<a href="/asian-network"><img src="/img/portfolio/asian-network.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
+				<a href="/hereford-worcester"><img src="/img/portfolio/hereford-worcester.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
+				<a href="/radio-2"><img src="/img/portfolio/radio-2.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
+				<a href="/bay-fm"><img src="/img/portfolio/bay-fm.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
+				<a href="/radio-warwick"><img src="/img/portfolio/radio-warwick.jpg" class="img-responsive"></a>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
+				<a href="/bhbn"><img src="img/portfolio/bhbn.jpg" class="img-responsive"></a>
+			</div>
+		</div><!--/row -->
+	</div><!--/container -->
