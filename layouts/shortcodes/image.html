@@ -1,0 +1,9 @@
+{{ if .IsNamedParams }}
+<div class="col-lg-8 col-lg-offset-2 {{ .Get "class" }}">
+	<img class="img-responsive" src="{{.Get "src" }}">
+</div>
+{{ else }}
+<div class="col-lg-8 col-lg-offset-2 {{ .Get "class" }}">
+	<img class="img-responsive" src="{{.Get 0 }}">
+</div>
+{{ end }}

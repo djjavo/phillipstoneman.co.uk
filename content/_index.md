@@ -50,22 +50,22 @@ draft: false
 		<div class="row centered mt mb">
 			<h1>My Portfolio</h1>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/station-sound"><img src="/img/portfolio/station-sound-portfolio.jpg" class="img-responsive"></a>
+				<a href="/portfolio/station-sound"><img src="/img/portfolio/station-sound-portfolio.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/demo"><img src="/img/portfolio/demo-portfolio.jpg" class="img-responsive"></a>
+				<a href="/portfolio/demo"><img src="/img/portfolio/demo-portfolio.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/graphic-design"><img src="/img/portfolio/graphic-design-portfolio.jpg" class="img-responsive"></a>
+				<a href="/portfolio/graphic-design"><img src="/img/portfolio/graphic-design-portfolio.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/bhbn-sport"><img src="/img/portfolio/bhbn-portfolio.jpg" class="img-responsive"></a>
+				<a href="/portfolio/bhbn-sport"><img src="/img/portfolio/bhbn-portfolio.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
 				<a href="/assets/cv.pdf"><img src="/img/portfolio/cv-portfolio.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-4 gallery">
-				<a href="/living-up-the-weekend"><img src="/img/portfolio/living-up-the-weekend-portfolio.jpg" class="img-responsive"></a>
+				<a href="/portfolio/living-up-the-weekend"><img src="/img/portfolio/living-up-the-weekend-portfolio.jpg" class="img-responsive"></a>
 			</div>
 		</div><! --/row -->
 	</div><! --/container -->
