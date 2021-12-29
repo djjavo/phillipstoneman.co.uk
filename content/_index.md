@@ -52,22 +52,22 @@ draft: false
 		<div class="row centered mt mb">
 			<h1>Working With</h1>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/asian-network"><img src="/img/portfolio/asian-network.jpg" class="img-responsive"></a>
+				<a href="/experience/asian-network"><img src="/img/portfolio/asian-network.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/hereford-worcester"><img src="/img/portfolio/hereford-worcester.jpg" class="img-responsive"></a>
+				<a href="/experience/hereford-worcester"><img src="/img/portfolio/hereford-worcester.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/radio-2"><img src="/img/portfolio/radio-2.jpg" class="img-responsive"></a>
+				<a href="/experience/radio-2"><img src="/img/portfolio/radio-2.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/bay-fm"><img src="/img/portfolio/bay-fm.jpg" class="img-responsive"></a>
+				<a href="/experience/bay-fm"><img src="/img/portfolio/bay-fm.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/radio-warwick"><img src="/img/portfolio/radio-warwick.jpg" class="img-responsive"></a>
+				<a href="/experience/radio-warwick"><img src="/img/portfolio/radio-warwick.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/bhbn"><img src="img/portfolio/bhbn.jpg" class="img-responsive"></a>
+				<a href="/experience/bhbn"><img src="img/portfolio/bhbn.jpg" class="img-responsive"></a>
 			</div>
 		</div><!--/row -->
 	</div><!--/container -->
