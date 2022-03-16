@@ -5,12 +5,18 @@ draft: false
 ---
 {{< column >}}
 <h4>ABOUT THE ROLE</h4>
-<p>Since October 2016, I have been part of the Station Sound team, producing imagery and trails, embracing the station’s branding – that espouses localness, storytelling and – above all – fun.</p>
+<p>Since April 2016, I’ve been around BBC Hereford & Worcester in some way shape or form – I started putting up gazebos for the EU referendum – I now knit the station together in Station Sound.</p>
 {{< /column >}}
-{{< image src="/img/portfolio/hereford-worcester-feature.jpg" class="mt-half" >}}
+{{< smallimage src="/img/portfolio/hereford-worcester-studio.jpeg" class="mt-half mx-2" >}}
 {{< column class="mt-half" >}}
 <p>
-	Highlights include creating a sound for three new shows to the station, developing new campaigns and new ways to showcase the best of our schedule – from our coverage of Worcestershire County Cricket in 2017, to the Sunday Nights mix of Jazz and Love Songs. We took home Silver in the 2017 Frank Gillard Awards for ‘Excellence in Production’, judges said:
+	I have produced the Afternoon and Evening programmes; I still produce the BBC Introducing programmes. I’ve also been running around behind the scenes at a great many Christmas light switch-ons, OBs and Children in Need events.
+</p>
+<p>
+	On an editorial note, highlights include bringing about a <a href="https://www.bbc.co.uk/programmes/p09gr2rg" target="_blank">virtual festival</a>, changing jingle packages and branding & launching three new programmes.
+</p>
+<p>
+	Other cool fun moments include visiting Toyah’s house on location(!), launching the evening show’s Kitchen Discos, and picking up some awards. In 2020 we won Station Of The Year at the ARIAs (I was there!) and alongside my awesome mentor (and Radio God) Mike Wyer, we took home Excellence In Production (Silver) in the Frank Gillard Awards 2017. The judges said back then:
 </p>
 <hr>
 <p>
@@ -18,6 +24,12 @@ draft: false
 </p>
 <hr>
 <p>
-	I take pride in my studio competence and editing proficiency, producing shows across the schedule and across programme genres. I regularly take the opportunity, often despite the time constraints of live shows, to create supplementary audio content that helps to bring items alive. I have good rapport with presenters and the audience, being no stranger to collating and reading travel, and playing my part when needed on-air.
+	All over output, I’ve reported out and about, written & read live travel, reported music, scheduled music and even pretended to fly in a hot air balloon over the villages of Herefordshire & Worcestershire.
 </p>
+{{< /column >}}
+{{< image src="/img/portfolio/hereford-worcester-feature.jpg" class="mt-half" >}}
+{{< column class="mt-half" >}}
+<h4>
+	<a href="http://www.bbc.co.uk/bbchw" target="_blank">Listen live here!</a>
+</h4>
 {{< /column >}}
