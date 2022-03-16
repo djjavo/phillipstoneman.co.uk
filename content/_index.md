@@ -58,7 +58,7 @@ draft: false
 				<a href="/experience/hereford-worcester"><img src="/img/portfolio/hereford-worcester.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
-				<a href="/experience/radio-2"><img src="/img/portfolio/radio-2.jpg" class="img-responsive"></a>
+				<a href="/experience/bbc-radio-2"><img src="/img/portfolio/radio-2.jpg" class="img-responsive"></a>
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 gallery">
 				<a href="/experience/bay-fm"><img src="/img/portfolio/bay-fm.jpg" class="img-responsive"></a>

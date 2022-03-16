@@ -5,14 +5,12 @@ draft: false
 ---
 {{< column >}}
 <h4>ABOUT THE ROLE</h4>
-<p>When my soon-to-be work experience supervisor called me in the summer of 2014 to say I'd have four weeks working at the UK's biggest radio station, I couldn't ever have anticipated what would be next.</p>
+<p>In summer 2014 I had the joy of being on work experience at BBC Radio 2.</p>
+<p>
+	This included, amongst other things, running around and trying to be helpful at Radio 2’s Live in Hyde Park show, and finding out far more fun facts than could ever be needed for Huey Morgan and Liza Tarbuck’s playlists.
+</p>
+<p>
+	And there was the small honour of sitting in with the great Sir Terry Wogan. He enjoyed my biscuits!
+</p>
 {{< /column >}}
 {{< largeimage src="/img/portfolio/radio-2-feature.jpg" class="mt-half" >}}
-{{< column class="mt-half" >}}
-<p>
-	I helped to prepare shows for one of the station's biggest events and OBs of the year: Live in Hyde Park. I helped collaborate production notes on the artists performing – and was part of the production teams producing live shows in between acts backstage, including Chris Evans' pre-ELO warm-up show.
-</p>
-<p>
-	I worked across the weekend shows, taking in and picking the brains of Huey Morgan's, Elaine Paige's, Liza Tarbuck's, Anneka Rice's, Graham Norton's and Terry Wogan's production teams. I took so many fond memories from shadowing all of the shows, especially the latter - to sit behind the glass wall of Sir Terry Wogan was an honour and something I will never forget.
-</p>
-{{< /column >}}
