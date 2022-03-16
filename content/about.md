@@ -56,7 +56,7 @@ draft: false
 				</ul>
 			</p>
 			<hr>
-			<h3><a href="assets/cv.pdf">View my C.V.</a></h3>
+			<h3><a href="/assets/cv.pdf">View my C.V.</a></h3>
 		</div>
 	</div><! --/row -->
 </div><! --/container -->
