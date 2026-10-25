@@ -7,14 +7,13 @@ station: "BBC Radio 2"
 role: "Work experience"
 summary: "Summer 2014: Live in Hyde Park, fun facts for Huey Morgan and Liza Tarbuck, and sitting in with Sir Terry Wogan."
 ---
-{{< column >}}
-<h4>ABOUT THE ROLE</h4>
-<p>In summer 2014 I had the joy of being on work experience at BBC Radio 2.</p>
-<p>
-	This included, amongst other things, running around and trying to be helpful at Radio 2’s Live in Hyde Park show, and finding out far more fun facts than could ever be needed for Huey Morgan and Liza Tarbuck’s playlists.
-</p>
-<p>
-	And there was the small honour of sitting in with the great Sir Terry Wogan. He enjoyed my biscuits!
-</p>
-{{< /column >}}
-{{< largeimage src="/img/portfolio/radio-2-feature.jpg" class="mt-half" >}}
+
+## About the role
+
+In summer 2014 I had the joy of being on work experience at BBC Radio 2.
+
+This included, amongst other things, running around and trying to be helpful at Radio 2’s Live in Hyde Park show, and finding out far more fun facts than could ever be needed for Huey Morgan and Liza Tarbuck’s playlists.
+
+And there was the small honour of sitting in with the great Sir Terry Wogan. He enjoyed my biscuits!
+
+{{< largeimage src="/img/portfolio/radio-2-feature.jpg" >}}
