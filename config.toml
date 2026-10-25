@@ -1,7 +1,0 @@
-baseURL = "/"
-locale = "en-gb"
-title = "Phillip Stoneman"
-disableKinds = ["taxonomy", "term"]
-[markup]
-  [markup.goldmark.renderer]
-    unsafe=true
