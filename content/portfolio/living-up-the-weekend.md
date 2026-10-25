@@ -2,6 +2,10 @@
 title: "Living Up The Weekend"
 date: 2021-02-23T13:54:45Z
 draft: false
+weight: 4
+category: "On air"
+station: "RaW 1251AM · BHBN"
+role: "Presenter, producer"
 ---
 {{< column >}}
 <h4>ABOUT THE WORK</h4>

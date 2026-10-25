@@ -1,96 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap 5.3.8 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <!-- Custom styles for this template -->
-    <link href="/css/style.css?v={{ now.Unix }}" rel="stylesheet">
-    <!-- Font Awesome 7.3.1 -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" rel="stylesheet" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     {{ $title := site.Title }}
     {{ if not .IsHome }}
       {{ $title = printf "%s | %s" .Title site.Title }}
     {{ end }}
-    <title>
-      {{ $title }}
-    </title>
+    <title>{{ $title }}</title>
+    <meta name="description" content="{{ site.Params.tagline }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link href="/css/site.css?v={{ now.Unix }}" rel="stylesheet">
     {{ partial "google_analytics.html" . }}
   </head>
   <body>
-    <header>
-      <!-- Static navbar -->
-      <nav class="navbar navbar-expand-md fixed-top firstnav" data-bs-theme="dark">
-        <div class="container">
-          <a class="navbar-brand" href="/">Phillip Stoneman</a>
-          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav" aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="mainnav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link{{ if .IsHome }} active{{ end }}" href="/">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link{{ if eq .RelPermalink "/about/" }} active{{ end }}" href="/about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/#portfolio">Portfolio</a>
-              </li>
-            </ul>
-          </div><!--/.navbar-collapse -->
-        </div>
+    <header class="wrap site-header">
+      <a class="brand" href="/">{{ site.Title }}</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="/#work">Work</a>
+        <a href="/#stations">Stations</a>
+        <a href="/updates/"{{ if eq .RelPermalink "/updates/" }} aria-current="page"{{ end }}>Updates</a>
+        <a href="/about"{{ if eq .RelPermalink "/about/" }} aria-current="page"{{ end }}>About</a>
+        <a href="#contact">Contact</a>
       </nav>
-      <div class="navbar fixed-top secondnav"></div>
     </header>
     <main>
       {{ block "main" . }}{{ end }}
     </main>
-    <footer>
-      <div id="social">
-    <div class="container">
-      <div class="row centered">
-        <div class="col-3" id="twitter">
-          <a href="https://x.com/PhillipStoneman"><i class="fa-brands fa-x-twitter"></i></a>
+    <footer id="contact" class="contact">
+      <div class="wrap">
+        <p class="eyebrow">Contact</p>
+        <h2 class="display">Why not say <em>hello</em>?</h2>
+        <p class="lead">I’m always looking to apply my varied creative skillset to new projects.</p>
+        <div class="actions">
+          <a class="btn btn--accent" href="mailto:{{ site.Params.email }}">{{ site.Params.email }}</a>
         </div>
-        <div class="col-3" id="linkedin">
-          <a href="https://www.linkedin.com/in/phillip-stoneman-03421061/"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="footbar">
+          <span>© {{ now.Year }} {{ site.Title }} · West Midlands</span>
+          <nav aria-label="Social">
+            <a href="https://www.instagram.com/PhillipStoneman/">Instagram</a>
+            <a href="https://www.linkedin.com/in/phillip-stoneman-03421061/">LinkedIn</a>
+          </nav>
         </div>
-        <div class="col-3" id="instagram">
-          <a href="https://www.instagram.com/PhillipStoneman/"><i class="fa-brands fa-instagram"></i></a>
-        </div>
-        <div class="col-3" id="mixcloud">
-          <a href="https://www.mixcloud.com/PhillipStoneman/"><i class="fa-brands fa-mixcloud"></i></a>
-        </div>
-
-      </div><!--/row -->
-    </div><!--/container -->
-  </div><!--/social -->
-
-  <div id="footerwrap">
-    <div class="container">
-      <div class="row centered">
-        <div class="col-xl-4">
-          <p><b>AWARD WINNING STATION SOUND PRODUCER &amp; PROGRAMME PRODUCER</b></p>
-        </div>
-
-        <div class="col-xl-4">
-          <p>West Midlands.</p>
-        </div>
-        <div class="col-xl-4">
-          <p>hello@phillipstoneman.co.uk</p>
-        </div>
-
       </div>
-
-    </div>
-  </div><!--/footerwrap -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/js/bootstrap.min.js" integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </footer>
   </body>
 </html>

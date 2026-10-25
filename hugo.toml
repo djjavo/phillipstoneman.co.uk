@@ -1,11 +1,14 @@
 baseURL = "/"
 locale = "en-gb"
 title = "Phillip Stoneman"
-disableKinds = ["taxonomy", "term", "section"]
+disableKinds = ["taxonomy", "term"]
 [markup]
   [markup.goldmark.renderer]
     unsafe=true
 [services]
   [services.googleAnalytics]
     # GA4 measurement ID, e.g. "G-XXXXXXXXXX". Leave empty to disable tracking.
-    ID = ""
+    ID = "G-2DJ5TLG1P3"
+[params]
+  email = "hello@phillipstoneman.co.uk"
+  tagline = "Award winning station sound producer and programme producer, West Midlands."

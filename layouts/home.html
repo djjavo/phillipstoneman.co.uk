@@ -1,5 +1,85 @@
 {{ define "main" }}
 
-{{ .Content }}
+<section id="top" class="wrap hero">
+  <p class="eyebrow">{{ .Params.eyebrow }}</p>
+  <h1 class="display">
+    {{ .Params.headline }}
+    <span class="sound-word"><em>{{ .Params.headline_word }}</em><span class="sound-word__wave" aria-hidden="true">
+      {{- range $i := seq 0 21 }}
+        {{- $v := math.Abs (add (mul (math.Sin (mul $i 0.55)) 0.5) (mul (math.Sin (add (mul $i 0.2) 1)) 0.5)) -}}
+        <span style="height: {{ math.Round (add 18 (mul $v 82)) }}%; animation-duration: {{ add 0.7 (mul (mod (mul $i 5) 7) 0.12) | lang.FormatNumber 2 }}s; animation-delay: {{ mul (mod (mul $i 11) 13) 0.02 | lang.FormatNumber 2 }}s"></span>
+      {{- end -}}
+    </span></span>
+    {{ .Params.headline_after }}
+  </h1>
+  <div class="hero__foot">
+    <p class="lead">{{ .Params.intro }}</p>
+    <div class="actions">
+      <a class="btn btn--solid" href="#contact">Get in touch</a>
+    </div>
+  </div>
+  <div class="wave" aria-hidden="true">
+    {{ range $i := seq 0 95 }}
+      {{ $v := math.Abs (add (mul (math.Sin (mul $i 0.37)) 0.55) (mul (math.Sin (add (mul $i 0.11) 1)) 0.45)) }}
+      <span{{ if eq $i 31 }} class="is-accent"{{ end }} style="height: {{ math.Round (add 6 (mul $v 84)) }}px; animation-duration: {{ add 1.1 (mul (mod (mul $i 7) 10) 0.18) | lang.FormatNumber 2 }}s; animation-delay: {{ mul (mod (mul $i 13) 17) 0.03 | lang.FormatNumber 2 }}s"></span>
+    {{ end }}
+  </div>
+</section>
+
+<section id="work" class="wrap section">
+  <div class="section__head">
+    <h2 class="heading">Selected work</h2>
+    <div class="filters" role="group" aria-label="Filter work" hidden>
+      <button type="button" aria-pressed="true" data-filter="All">All</button>
+      <button type="button" aria-pressed="false" data-filter="On air">On air</button>
+      <button type="button" aria-pressed="false" data-filter="Station sound">Station sound</button>
+      <button type="button" aria-pressed="false" data-filter="Design">Design</button>
+    </div>
+  </div>
+  <div class="rows">
+    {{ range (where site.RegularPages "Section" "portfolio").ByWeight }}
+      <a class="row" href="{{ .RelPermalink }}" data-category="{{ .Params.category }}">
+        <span class="row__meta row__meta--caps">{{ .Params.category }}</span>
+        <span class="row__title">{{ .Title }}</span>
+        <span class="row__text">{{ .Params.station }}</span>
+        <span class="row__meta row__meta--caps">{{ .Params.role }}</span>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<section id="stations" class="wrap section">
+  <div class="section__head">
+    <h2 class="heading">Working with</h2>
+  </div>
+  <div class="cards">
+    {{ range $i, $p := (where site.RegularPages "Section" "experience").ByWeight }}
+      <a class="card" href="{{ $p.RelPermalink }}">
+        <p class="card__num">{{ printf "%02d" (add $i 1) }}</p>
+        <h3 class="card__title">{{ $p.Params.station }}</h3>
+        <p class="card__text">{{ $p.Params.summary }}</p>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+<script>
+  (function () {
+    var group = document.querySelector('.filters');
+    var rows = document.querySelectorAll('#work .row');
+    group.hidden = false;
+    group.addEventListener('click', function (e) {
+      var btn = e.target.closest('button');
+      if (!btn) return;
+      var f = btn.dataset.filter;
+      group.querySelectorAll('button').forEach(function (b) {
+        b.setAttribute('aria-pressed', b === btn ? 'true' : 'false');
+      });
+      rows.forEach(function (r) {
+        r.hidden = f !== 'All' && r.dataset.category !== f;
+      });
+    });
+  })();
+</script>
 
 {{ end }}

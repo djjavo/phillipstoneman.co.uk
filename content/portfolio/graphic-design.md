@@ -2,6 +2,10 @@
 title: "Graphic Design"
 date: 2021-02-23T13:54:45Z
 draft: false
+weight: 5
+category: "Design"
+station: "Bay FM · BHBN"
+role: "Graphic design"
 ---
 {{< column >}}
 <h4>ABOUT THE WORK</h4>

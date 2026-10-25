@@ -1,5 +1,22 @@
 {{ define "main" }}
 
-{{ .Content }}
+{{ $back := dict "portfolio" (slice "/#work" "Selected work") "experience" (slice "/#stations" "Working with") }}
+{{ $link := index $back .Section }}
+
+<section class="wrap page-hero">
+  {{ with $link }}<a class="back" href="{{ index . 0 }}">← {{ index . 1 }}</a>{{ end }}
+  <h1 class="display">{{ .Title }}</h1>
+  {{ if or .Params.station .Params.role }}
+    <div class="page-hero__meta">
+      {{ with .Params.category }}<span>{{ . }}</span>{{ end }}
+      {{ with .Params.station }}<span>{{ . }}</span>{{ end }}
+      {{ with .Params.role }}<span>{{ . }}</span>{{ end }}
+    </div>
+  {{ end }}
+</section>
+
+<article class="wrap article">
+  {{ .Content }}
+</article>
 
 {{ end }}

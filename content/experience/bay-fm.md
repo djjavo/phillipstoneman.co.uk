@@ -2,6 +2,10 @@
 title: "Bay FM"
 date: 2021-02-23T13:54:45Z
 draft: false
+weight: 6
+station: "Bay FM"
+role: "Graphic design"
+summary: "Social media assets, artwork and the station logo for one of Devon's largest community stations."
 ---
 {{< column >}}
 <h4>ABOUT THE ROLE</h4>

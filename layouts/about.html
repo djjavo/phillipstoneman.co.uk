@@ -1,0 +1,38 @@
+{{ define "main" }}
+
+<section class="wrap page-hero">
+  <p class="eyebrow">About</p>
+  <h1 class="display">{{ site.Title }}</h1>
+</section>
+
+<section class="wrap section section--flush">
+  <div class="split">
+    <div class="split__aside">
+      <figure class="portrait"><img src="/img/phillip-studio.jpg" alt="Phillip Stoneman in the studio"></figure>
+    </div>
+    <div class="split__body prose">
+      {{ .Content }}
+      <div class="actions">
+        <a class="btn btn--solid" href="/assets/cv.pdf">View my C.V.</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="section__head">
+    <h2 class="heading">Awards</h2>
+  </div>
+  <div class="rows rows--compact">
+    {{ range .Params.awards }}
+      <div class="row">
+        <span class="row__meta">{{ .year }}</span>
+        <span class="row__title">{{ .award }}</span>
+        <span class="row__text">{{ .who }} · {{ .event }}</span>
+        <span class="row__meta row__meta--caps">{{ .result }}</span>
+      </div>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

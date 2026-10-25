@@ -2,6 +2,10 @@
 title: "Demo"
 date: 2021-02-23T13:54:45Z
 draft: false
+weight: 2
+category: "On air"
+station: "Various"
+role: "Presenter, reporter"
 ---
 {{< column >}}
 <h4>ABOUT THE WORK</h4>

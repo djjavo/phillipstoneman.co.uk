@@ -2,6 +2,10 @@
 title: "Station Sound"
 date: 2021-02-23T13:54:14Z
 draft: false
+weight: 1
+category: "Station sound"
+station: "BBC Hereford & Worcester"
+role: "Imaging, trails, jingles"
 ---
 {{< column >}}
 <h4>ABOUT THE WORK</h4>
