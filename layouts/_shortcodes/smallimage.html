@@ -1,9 +1,9 @@
 {{ if .IsNamedParams }}
-<div class="col-lg-6 col-lg-offset-3 {{ .Get "class" }}">
-	<img class="img-responsive" src="{{.Get "src" }}">
+<div class="col-xl-6 offset-xl-3 {{ .Get "class" }}">
+	<img class="img-fluid d-block" src="{{.Get "src" }}">
 </div>
 {{ else }}
-<div class="col-lg-6 col-lg-offset-3 {{ .Get "class" }}">
-	<img class="img-responsive" src="{{.Get 0 }}">
+<div class="col-xl-6 offset-xl-3 {{ .Get "class" }}">
+	<img class="img-fluid d-block" src="{{.Get 0 }}">
 </div>
 {{ end }}

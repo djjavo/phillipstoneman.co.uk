@@ -7,7 +7,7 @@ draft: false
 <div id="aboutwrap">
     <div class="container">
 		<div class="row">
-			<div class="col-lg-6 col-lg-offset-3">
+			<div class="col-xl-6 offset-xl-3">
 				<h1>ABOUT</h1>
 			</div>
 		</div><! --/row -->
@@ -15,7 +15,7 @@ draft: false
 </div><! --/aboutwrap -->
 <div class="container">
 	<div class="row centered mt mb">
-		<div class="col-lg-8 col-lg-offset-2">
+		<div class="col-xl-8 offset-xl-2">
 			<h2>PHILLIP STONEMAN</h2>
 			<hr>
 			<p>

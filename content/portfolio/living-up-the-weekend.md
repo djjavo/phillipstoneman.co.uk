@@ -12,7 +12,7 @@ draft: false
 	I was able to hone my presenting style, focus my presenting strengths, and learn how best I could use the desk and playout system at my disposal to create a show full of energy and creativity, befitting our student audience over a Saturday lunchtime. Alongside regular features, I challenged myself to create unique content every week – which, after broadcast, was packaged, branded, and then uploaded – as below!
 </p>
 {{< /column >}}
-<div class="col-lg-10 col-lg-offset-1">
+<div class="col-xl-10 offset-xl-1">
 	{{% audioboom src="//embeds.audioboom.com/publishing/playlist/v4?bg_fill_col=%23ecefef&amp;boo_content_type=playlist&amp;data_for_content_type=1289262-living-up-the-weekend-the-games&amp;image_option=small&amp;link_color=%2358d1eb&amp;player_theme=light&amp;src=https%3A%2F%2Fapi.audioboom.com%2Fplaylists%2F1289262-living-up-the-weekend-the-games" %}}
 </div>
 {{< column >}}

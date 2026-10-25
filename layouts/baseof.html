@@ -3,13 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap 5.3.8 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-2bBQCjcnw658Lho4nlXJcc6WkV/UxpE/sAokbXPxQNGqmNdQrWqtw26Ns9kFF/yG792pKR1Sx8/Y1Lf1XN4GKA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <!-- Custom styles for this template -->
     <link href="/css/style.css?v={{ now.Unix }}" rel="stylesheet">
-    <!-- FontAwesome 4.7.0 -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Font Awesome 7.3.1 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" rel="stylesheet" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     {{ $title := site.Title }}
     {{ if not .IsHome }}
       {{ $title = printf "%s | %s" .Title site.Title }}
@@ -22,34 +21,28 @@
   <body>
     <header>
       <!-- Static navbar -->
-      <div class="navbar navbar-default navbar-fixed-top firstnav" role="navigation">
+      <nav class="navbar navbar-expand-md fixed-top firstnav" data-bs-theme="dark">
         <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Phillip Stoneman</a>
-          </div>
-          <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                          <li class="nav-item  active">
-                <a class="nav-link" href="/">Home</a>
+          <a class="navbar-brand" href="/">Phillip Stoneman</a>
+          <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav" aria-controls="mainnav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainnav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link{{ if .IsHome }} active{{ end }}" href="/">Home</a>
               </li>
-                              <li class="nav-item ">
-                <a class="nav-link" href="/about">About</a>
+              <li class="nav-item">
+                <a class="nav-link{{ if eq .RelPermalink "/about/" }} active{{ end }}" href="/about">About</a>
               </li>
-                              <li class="nav-item ">
+              <li class="nav-item">
                 <a class="nav-link" href="/#portfolio">Portfolio</a>
               </li>
-                            </ul>
-          </div><!--/.nav-collapse -->
+            </ul>
+          </div><!--/.navbar-collapse -->
         </div>
-      </div>
-      <div class="navbar navbar-default navbar-fixed-top secondnav" role="navigation">
-      </div>
+      </nav>
+      <div class="navbar fixed-top secondnav"></div>
     </header>
     <main>
       {{ block "main" . }}{{ end }}
@@ -58,17 +51,17 @@
       <div id="social">
     <div class="container">
       <div class="row centered">
-        <div class="col-xs-3" id="twitter">
-          <a href="https://twitter.com/PhillipStoneman"><i class="fa fa-twitter"></i></a>
+        <div class="col-3" id="twitter">
+          <a href="https://x.com/PhillipStoneman"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
-        <div class="col-xs-3" id="linkedin">
-          <a href="https://www.linkedin.com/in/phillip-stoneman-03421061/"><i class="fa fa-linkedin"></i></a>
+        <div class="col-3" id="linkedin">
+          <a href="https://www.linkedin.com/in/phillip-stoneman-03421061/"><i class="fa-brands fa-linkedin"></i></a>
         </div>
-        <div class="col-xs-3" id="instagram">
-          <a href="https://www.instagram.com/PhillipStoneman/"><i class="fa fa-instagram"></i></a>
+        <div class="col-3" id="instagram">
+          <a href="https://www.instagram.com/PhillipStoneman/"><i class="fa-brands fa-instagram"></i></a>
         </div>
-        <div class="col-xs-3" id="mixcloud">
-          <a href="https://www.mixcloud.com/PhillipStoneman/"><i class="fa fa-mixcloud"></i></a>
+        <div class="col-3" id="mixcloud">
+          <a href="https://www.mixcloud.com/PhillipStoneman/"><i class="fa-brands fa-mixcloud"></i></a>
         </div>
 
       </div><!--/row -->
@@ -78,14 +71,14 @@
   <div id="footerwrap">
     <div class="container">
       <div class="row centered">
-        <div class="col-lg-4">
+        <div class="col-xl-4">
           <p><b>AWARD WINNING STATION SOUND PRODUCER &amp; PROGRAMME PRODUCER</b></p>
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-xl-4">
           <p>West Midlands.</p>
         </div>
-        <div class="col-lg-4">
+        <div class="col-xl-4">
           <p>hello@phillipstoneman.co.uk</p>
         </div>
 
@@ -97,8 +90,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.8/js/bootstrap.min.js" integrity="sha512-nKXmKvJyiGQy343jatQlzDprflyB5c+tKCzGP3Uq67v+lmzfnZUi/ZT+fc6ITZfSC5HhaBKUIvr/nTLCV+7F+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </footer>
   </body>
 </html>
