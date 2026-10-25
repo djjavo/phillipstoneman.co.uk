@@ -310,14 +310,13 @@ button { font-family: inherit; }
 }
 
 .article { padding-bottom: 96px; }
-
-.prose { max-width: 680px; margin: 0 auto; }
-.prose + .prose, .media + .prose, .embed + .prose { margin-top: 48px; }
-.prose p { margin: 0 0 20px; color: var(--ink-2); text-wrap: pretty; }
-.article > .prose:first-child p:first-of-type, .split__body.prose p:first-of-type { font-size: 21px; line-height: 1.45; color: var(--ink); }
-.prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
-.prose h4 {
-  margin: 0 0 24px;
+.article > * { max-width: 680px; margin-left: auto; margin-right: auto; }
+.article > p { margin-top: 0; margin-bottom: 20px; color: var(--ink-2); text-wrap: pretty; }
+.article > .media + *, .article > .embed + * { margin-top: 48px; }
+.article a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+.article > h2 {
+  margin-top: 40px;
+  margin-bottom: 24px;
   font-family: var(--mono);
   font-weight: 400;
   font-size: 13px;
@@ -325,15 +324,26 @@ button { font-family: inherit; }
   text-transform: uppercase;
   color: var(--ink-3);
 }
-.prose h4 a { text-decoration: none; }
-.prose hr { border: 0; border-top: 1px solid var(--rule); margin: 32px 0; }
-.prose hr + p i, .prose hr + p em {
-  display: block;
+.article > h2:first-child { margin-top: 0; }
+.article > h2 a { text-decoration: none; }
+.article > blockquote {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 32px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
   font-family: var(--serif);
+  font-style: italic;
   font-size: 30px;
   line-height: 1.2;
   color: var(--ink);
 }
+.article > blockquote p { margin: 0; }
+
+.prose { max-width: 680px; margin: 0 auto; }
+.prose p { margin: 0 0 20px; color: var(--ink-2); text-wrap: pretty; }
+.split__body.prose p:first-of-type { font-size: 21px; line-height: 1.45; color: var(--ink); }
+.prose a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 
 .media { margin: 48px auto 0; }
 .media img { width: 100%; border-radius: 4px; }
@@ -342,6 +352,7 @@ button { font-family: inherit; }
 .media--small { max-width: 520px; }
 
 .embed { margin: 40px 0; }
+.article > .embed { margin: 40px auto; }
 .embed iframe { display: block; width: 100%; border: 0; border-radius: 4px; }
 
 /* Contact / footer */
