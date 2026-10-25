@@ -82,6 +82,7 @@ button { font-family: inherit; }
   color: var(--ink-2);
   text-wrap: pretty;
 }
+.lead + .lead { margin-top: 16px; }
 
 /* Buttons */
 

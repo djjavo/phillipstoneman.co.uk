@@ -4,25 +4,29 @@ date: 2021-02-23T13:54:45Z
 draft: false
 weight: 1
 station: "BBC Hereford & Worcester"
-role: "Station Sound producer"
-summary: "Knitting the station together in Station Sound. Previously Afternoon and Evening programmes; still producing BBC Introducing."
+role: "Producer & presenter"
+summary: "Producing and presenting across the station, plus BBC Upload and BBC Introducing."
 ---
 
 ## About the role
 
-Since April 2016, I’ve been around BBC Hereford & Worcester in some way shape or form – I started putting up gazebos for the EU referendum – I now knit the station together in Station Sound.
+Since April 2016, in some way, shape or form, I’ve been around the radio station, doing everything under the sun from putting up gazebos for the EU Referendum to creating imaging, producing and presenting. I’m often the chump behind-the-scenes making things happen.
 
 {{< smallimage src="/img/portfolio/hereford-worcester-studio.jpeg" >}}
 
-I have produced the Afternoon and Evening programmes; I still produce the BBC Introducing programmes. I’ve also been running around behind the scenes at a great many Christmas light switch-ons, OBs and Children in Need events.
+I make content come to life in all its forms, on-air, online and on social, ensuring every story that comes to me gets as many eyes and ears as it needs to.
 
-On an editorial note, highlights include bringing about a [virtual festival](https://www.bbc.co.uk/programmes/p09gr2rg), changing jingle packages and branding & launching three new programmes.
+Alongside regularly producing the breakfast and afternoon shows, I work on the regional BBC Upload and BBC Introducing programmes.
 
-Other cool fun moments include visiting Toyah’s house on location(!), launching the evening show’s Kitchen Discos, and picking up some awards. In 2020 we won Station Of The Year at the ARIAs (I was there!) and alongside my awesome mentor (and Radio God) Mike Wyer, we took home Excellence In Production (Silver) in the Frank Gillard Awards 2017. The judges said back then:
+Editorial highlights include bringing about a [virtual festival](https://www.bbc.co.uk/programmes/p09gr2rg), launching every new programme at the station since 2016 and multiple jingle packages.
+
+Other fun moments include Poppy Cooks visiting the studios, visiting Toyah’s house, launching new features for DJs and poets at a time when venues were closed over lockdown and picking up awards.
+
+In 2020, we won Station of the Year at the ARIAs – I was there – whilst alongside my awesome radio mentor, Mike Wyer, we took home Excellence in Production at the Frank Gillard Awards in 2017. The judges said back then:
 
 > An excellent example of station sound defining a solid brand identity. High production values, creative writing and excellent use of SFX created a top entry.
 
-All over output, I’ve reported out and about, written & read live travel, reported music, scheduled music and even pretended to fly in a hot air balloon over the villages of Herefordshire & Worcestershire.
+You can find my work all over output. From the trails and jingles, to my scripts, travel bulletins, location reporting, regular presenting and newsreading. Off-air, I bring programmes together and do lots of other admin that keeps the needles of BBC Hereford & Worcester waggling.
 
 {{< image src="/img/portfolio/hereford-worcester-feature.jpg" >}}
 

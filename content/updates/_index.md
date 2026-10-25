@@ -5,7 +5,7 @@ eyebrow: "Updates"
 headline: "Behind the desk, between the"
 headline_word: "shows"
 headline_after: "."
-intro: "Milestones, campaigns and moments from the studio. For the day-to-day bits, follow along on social."
+intro: "Milestones, campaigns and moments from studios up and down the country. For the latest, follow on my socials."
 tiles:
   - { image: "/img/portfolio/bhbn-feature.jpg", url: "/experience/bhbn/", label: "BHBN" }
   - { image: "/img/portfolio/bhbn-sport-feature.jpg", url: "/portfolio/bhbn-sport/", label: "BHBN Sport" }
