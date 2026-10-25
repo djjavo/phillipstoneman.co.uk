@@ -1,0 +1,69 @@
+{{ define "main" }}
+
+<section class="wrap updates-hero">
+  <p class="eyebrow">{{ .Params.eyebrow }}</p>
+  <h1 class="display">{{ .Params.headline }} <em>{{ .Params.headline_word }}</em>{{ .Params.headline_after }}</h1>
+  <div class="hero__foot">
+    <p class="lead">{{ .Params.intro }}</p>
+    <div class="actions">
+      <a class="btn btn--sm" href="https://www.instagram.com/PhillipStoneman/">Instagram</a>
+      <a class="btn btn--sm" href="https://www.linkedin.com/in/phillip-stoneman-03421061/">LinkedIn</a>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section section--tight">
+  <div class="section__head">
+    <h2 class="subheading">The big ones</h2>
+  </div>
+  <div class="timeline">
+    {{ range $k, $u := .Pages.ByDate.Reverse }}
+      <article class="update">
+        <div class="update__when">
+          <p>{{ $u.Params.when }}</p>
+          <p>{{ $u.Params.tag }}</p>
+        </div>
+        <figure class="update__media">
+          <img src="{{ $u.Params.image }}" alt="" loading="lazy">
+        </figure>
+        <div class="update__body">
+          <div>
+            <h3 class="update__title">{{ $u.Title }}</h3>
+            <div class="update__text">{{ $u.Content }}</div>
+          </div>
+          {{ with $u.Params.listen }}
+            <div class="player">
+              <a class="player__play" href="{{ . }}" aria-label="Listen: {{ $u.Title }}">
+                <svg aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" fill="currentColor"><path d="M3 1.5v11l9-5.5z"/></svg>
+              </a>
+              {{ partial "miniwave.html" (dict "seed" (mul $k 9) "n" 44 "played" 0.35) }}
+              <span class="player__label">Listen</span>
+            </div>
+          {{ else }}
+            {{ with $u.Params.link }}<a class="link-underline" href="{{ . }}">Read more</a>{{ end }}
+          {{ end }}
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</section>
+
+<section class="wrap section section--tight section--end">
+  <div class="section__head">
+    <h2 class="subheading">Around the stations</h2>
+    <a class="link-underline" href="https://www.instagram.com/PhillipStoneman/">See more on Instagram</a>
+  </div>
+  <div class="tiles">
+    {{ range $t := .Params.tiles }}
+      <a class="tile" href="{{ $t.url }}">
+        <img src="{{ $t.image }}" alt="" loading="lazy">
+        <span class="tile__bar">
+          <span class="tile__label">{{ $t.source | default $t.label }}</span>
+          {{ with $t.date }}<time class="tile__date" datetime="{{ . }}">{{ (time .).Format "Jan 2006" }}</time>{{ end }}
+        </span>
+      </a>
+    {{ end }}
+  </div>
+</section>
+
+{{ end }}

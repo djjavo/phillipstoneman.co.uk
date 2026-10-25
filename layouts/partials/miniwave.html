@@ -1,0 +1,8 @@
+{{- /* Decorative waveform. Pass dict: seed, n, played (0–1). */ -}}
+<span class="miniwave" aria-hidden="true">
+  {{- range $i := seq 0 (sub .n 1) }}
+    {{- $x := add $i $.seed -}}
+    {{- $v := math.Abs (add (mul (math.Sin (mul $x 0.45)) 0.55) (mul (math.Sin (add (mul $x 0.13) 1)) 0.45)) -}}
+    <span{{ if lt $i (mul $.n $.played) }} class="is-played"{{ end }} style="height: {{ math.Round (add 14 (mul $v 86)) }}%; animation-delay: {{ mul $i 0.02 | lang.FormatNumber 2 }}s"></span>
+  {{- end -}}
+</span>

@@ -2,6 +2,10 @@
 title: "BHBN"
 date: 2021-02-23T13:54:45Z
 draft: false
+weight: 3
+station: "BHBN Radio"
+role: "Sport co-producer, director"
+summary: "Co-producing the weekly four-hour sport show, training new members and sitting on the board of directors."
 ---
 {{< column >}}
 <h4>ABOUT THE ROLE</h4>
@@ -18,7 +22,6 @@ draft: false
 	I co-produce the weekly four hour sports show, in addition to managing and training new members, and allocating commentators each week to cover the home games of Birmingham City, West Bromwich Albion, Aston Villa and the Birmingham Bears. I use my production, audio-editing and graphic design skills for the station to complement the shows I work on, not least with commentary highlight packages that are uploaded online and social media assets to add value to the Sport department's social media channels.
 </p>
 <p>
-	Achievements include setting up the station's own Mixcloud page – which is now beginning to see members upload their own shows, editing the station's yearly magazine, and editing the longlisted Best Station entry for the 2018 Hospital Broadcasting Association awards.
+	Achievements include editing the station's yearly magazine, and editing the longlisted Best Station entry for the 2018 Hospital Broadcasting Association awards.
 </p>
-{{% mixcloud src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2FBHBNRadio%2Fa-year-in-the-life-of-bhbn-hospital-radio-2017%2F" %}}
 {{< /column >}}

@@ -2,6 +2,10 @@
 title: "Hereford & Worcester"
 date: 2021-02-23T13:54:45Z
 draft: false
+weight: 1
+station: "BBC Hereford & Worcester"
+role: "Station Sound producer"
+summary: "Knitting the station together in Station Sound. Previously Afternoon and Evening programmes; still producing BBC Introducing."
 ---
 {{< column >}}
 <h4>ABOUT THE ROLE</h4>

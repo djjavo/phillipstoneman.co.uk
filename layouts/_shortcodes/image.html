@@ -1,9 +1,3 @@
-{{ if .IsNamedParams }}
-<div class="col-xl-8 offset-xl-2 {{ .Get "class" }}">
-	<img class="img-fluid d-block" src="{{.Get "src" }}">
-</div>
-{{ else }}
-<div class="col-xl-8 offset-xl-2 {{ .Get "class" }}">
-	<img class="img-fluid d-block" src="{{.Get 0 }}">
-</div>
-{{ end }}
+<figure class="media media--normal">
+	<img src="{{ if .IsNamedParams }}{{ .Get "src" }}{{ else }}{{ .Get 0 }}{{ end }}" alt="{{ .Get "alt" }}" loading="lazy">
+</figure>

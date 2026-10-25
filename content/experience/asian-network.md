@@ -2,6 +2,10 @@
 title: "Asian Network"
 date: 2021-02-23T13:54:55Z
 draft: false
+weight: 2
+station: "BBC Asian Network"
+role: "Freelance producer"
+summary: "My first freelance production work: programmes in nearly every hour of the schedule, from weekend breakfast to specialist language shows."
 ---
 {{< column >}}
 <h4>ABOUT THE ROLE</h4>

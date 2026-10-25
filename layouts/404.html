@@ -1,18 +1,12 @@
-{{ define "main"}}
-<div id="portfoliowrap">
-  <div class="container">
-  <div class="row">
-    <div class="col-xl-8 offset-xl-2">
-      <h1>404</h1>
+{{ define "main" }}
+<section class="wrap hero">
+  <p class="eyebrow">404</p>
+  <h1 class="display">Page <em>not found</em>.</h1>
+  <div class="hero__foot">
+    <p class="lead">That page isn’t on the schedule.</p>
+    <div class="actions">
+      <a class="btn btn--solid" href="{{ "/" | relURL }}">Return to safety</a>
     </div>
-  </div><!--/row -->
-  </div> <!-- /container -->
-</div><!--/workwrap -->
-
-<div class="container">
-	<div class="row centered mt mb">
-        <h1>Page not found</h1>
-        <h4><a href="{{ "/" | relURL }}">Return to safety</a></h4>
-	</div><!--/row -->
-</div><!--/container -->
+  </div>
+</section>
 {{ end }}
