@@ -2,9 +2,6 @@ baseURL = "/"
 locale = "en-gb"
 title = "Phillip Stoneman"
 disableKinds = ["taxonomy", "term"]
-[markup]
-  [markup.goldmark.renderer]
-    unsafe=true
 [services]
   [services.googleAnalytics]
     # GA4 measurement ID, e.g. "G-XXXXXXXXXX". Leave empty to disable tracking.
