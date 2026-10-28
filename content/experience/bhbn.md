@@ -2,10 +2,10 @@
 title: "BHBN"
 date: 2021-02-23T13:54:45Z
 draft: false
-weight: 3
+weight: 6
 station: "BHBN Radio"
 role: "Sport co-producer, director"
-summary: "Co-producing the weekly four-hour sport show, training new members and sitting on the board of directors."
+summary: "Co-host of the Saturday sport show."
 ---
 
 ## About the role

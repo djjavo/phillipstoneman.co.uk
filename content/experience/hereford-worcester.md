@@ -5,7 +5,7 @@ draft: false
 weight: 1
 station: "BBC Hereford & Worcester"
 role: "Producer & presenter"
-summary: "Producing and presenting across the station, plus BBC Upload and BBC Introducing."
+summary: "Station sound. Producer of breakfast, afternoon, evening and emergency programmes."
 ---
 
 ## About the role

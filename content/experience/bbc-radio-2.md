@@ -2,10 +2,10 @@
 title: "BBC Radio 2"
 date: 2021-02-23T13:54:45Z
 draft: false
-weight: 4
+weight: 7
 station: "BBC Radio 2"
 role: "Work experience"
-summary: "Summer 2014: Live in Hyde Park, fun facts for Huey Morgan and Liza Tarbuck, and sitting in with Sir Terry Wogan."
+summary: "Summer 2014: Live in Hyde Park, Huey Morgan, Liza Tarbuck and sitting in with Sir Terry Wogan."
 ---
 
 ## About the role

@@ -2,10 +2,10 @@
 title: "RAW 1251AM"
 date: 2021-02-23T13:54:45Z
 draft: false
-weight: 5
+weight: 8
 station: "RaW 1251AM"
 role: "Presenter, Head of Production"
-summary: "Three years of student radio at Warwick: a primetime award-winning show, news, imaging and the station committee."
+summary: "Three years of student radio: a primetime award-winning show, news, imaging and station committee."
 ---
 
 ## About the role

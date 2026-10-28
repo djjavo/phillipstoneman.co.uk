@@ -1,11 +1,11 @@
 ---
-title: "Bay FM"
+title: "Bay FM (now DevonAir Radio)"
 date: 2021-02-23T13:54:45Z
 draft: false
-weight: 6
-station: "Bay FM"
+weight: 9
+station: "Bay FM (now DevonAir Radio)"
 role: "Graphic design"
-summary: "Social media assets, artwork and the station logo for one of Devon's largest community stations."
+summary: "Graphic design for one of Devon’s largest community stations."
 ---
 
 ## About the role
