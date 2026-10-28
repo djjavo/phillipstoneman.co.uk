@@ -18,4 +18,4 @@ Two and a bit years later, I have started my second year on its board of directo
 
 I co-produce the weekly four hour sports show, in addition to managing and training new members, and allocating commentators each week to cover the home games of Birmingham City, West Bromwich Albion, Aston Villa and the Birmingham Bears. I use my production, audio-editing and graphic design skills for the station to complement the shows I work on, not least with commentary highlight packages that are uploaded online and social media assets to add value to the Sport department's social media channels.
 
-Achievements include editing the station's yearly magazine, and editing the longlisted Best Station entry for the 2018 Hospital Broadcasting Association awards.
+Achievements include editing the station's yearly magazine, and editing the radio station's Best Station entries at the Hospital Radio Awards, winning in 2026, 2024, 2023 and 2019, plus runner-up in 2020.
